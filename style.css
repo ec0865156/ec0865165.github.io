@@ -1,2 +1,82 @@
 @charset "UTF-8";
 
+/* Fonts */
+@font-face {
+    font-family: 'Destroyers';
+    src: url(Destroyers.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'PDBoldItalic';
+    src: url(PDBoldItalic.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'PDBold';
+    src: url(PDBold.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Body Styles */
+/* Headers */
+h1 {
+    font-family: Destroyers, Garamond, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 10px;
+}
+h2 {
+    font-family: PDBold, Garamond, 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    text-align: center;
+    line-height: 2px;
+}
+
+/* Navigation */
+nav {
+    text-align: center;
+    font-family: PDBold, Arial, Helvetica, sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgba(255, 255, 255, 0.5);
+}
+li {
+    display: inline-block;
+    float: center;
+    padding: 5px;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: darkolivegreen;
+    color: white;
+}
+
+/* Body */
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 30px;
+    position: fixed;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
