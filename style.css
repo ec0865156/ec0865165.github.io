@@ -22,6 +22,13 @@
     font-style: normal;
     font-display: swap;
 }
+@font-face {
+    font-family: 'PDReg';
+    src: url(PlayfairDisplayRegular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 /* Body Styles */
 /* Headers */
@@ -86,10 +93,23 @@ li a:hover:not(.active) {
     width: 80%;
     box-sizing: border-box;
     text-align: center;
-    margin-top: 7%;
+    margin-top: 4.7%;
     padding: 10px;
-    background-color: rgba(57,120,128,0.5);
+    background-color: rgb(8,87,31, 0.5);
     color: white;
+}
+.Col3, .Col4 {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 20px;
+}
+.Col5 {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
 }
 aside {
     font-family: Destroyers, Garamond, 'Times New Roman', Times, serif;
@@ -98,9 +118,13 @@ aside {
     float: right;
     width: 20%;
     margin-right: 2%;
-    margin-top: 12%;
+    margin-top: 3%;
     text-align: center;
     background-color: rgba(57,120,128,0.5);
+}
+body {
+    color: white;
+    font-family: PDReg, Garamond, 'Times New Roman', Times, serif;
 }
 
 /* Footer */
@@ -109,7 +133,6 @@ footer {
     text-align: center;
     padding: 30px;
     position: fixed;
-    text-align: center;
     background-color: rgba(31,147,86, 0.5);
     left: 0;
     bottom: 0;
