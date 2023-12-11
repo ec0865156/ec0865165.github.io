@@ -29,13 +29,22 @@ h1 {
     font-family: Destroyers, Garamond, 'Times New Roman', Times, serif;
     text-align: center;
     font-size: 60px;
-    letter-spacing: 10px;
+    letter-spacing: 25px;
+    color: white;
+    text-shadow: 5px 5px 2px rgb(57,120,128);
 }
 h2 {
     font-family: PDBold, Garamond, 'Times New Roman', Times, serif;
     font-variant: small-caps;
     text-align: center;
     line-height: 2px;
+    color: white;
+}
+header {
+    background-color: rgba(31,147,86, 0.5);
+}
+html {
+    background-image: url(Coding.jpg);
 }
 
 /* Navigation */
@@ -48,11 +57,10 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:rgba(255, 255, 255, 0.5);
+    background-color:rgba(31,147,86, 0.5);
 }
 li {
     display: inline-block;
-    float: center;
     padding: 5px;
 }
 li a {
@@ -63,19 +71,46 @@ li a {
     text-decoration: none;
 }
 li a:hover:not(.active) {
-    background-color: darkolivegreen;
+    background-color: rgb(57,120,128);
     color: white;
 }
 
 /* Body */
+.Container {
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+.Col1 {
+    float: left;
+    width: 80%;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 7%;
+    padding: 10px;
+    background-color: rgba(57,120,128,0.5);
+    color: white;
+}
+aside {
+    font-family: Destroyers, Garamond, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 24px;
+    float: right;
+    width: 20%;
+    margin-right: 2%;
+    margin-top: 12%;
+    text-align: center;
+    background-color: rgba(57,120,128,0.5);
+}
 
 /* Footer */
 footer {
+    font-family: PDBold, Garamond, 'Times New Roman', Times, serif;
     text-align: center;
     padding: 30px;
     position: fixed;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(31,147,86, 0.5);
     left: 0;
     bottom: 0;
     width: 100%;
